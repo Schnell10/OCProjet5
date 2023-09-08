@@ -3,27 +3,32 @@
 
 <head>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title></title>
-	<meta name="description" content="" />
-	<link rel="stylesheet" media="all" href="./assets/bootstrap/bootstrap.css">
-	<link rel="stylesheet" media="all" href="./assets/style.css">
-	<link rel="preconnect" media="all" href="https://fonts.googleapis.com">
-	<link rel="preconnect" media="all" href="https://fonts.gstatic.com" crossorigin>
-	<link
+	<title>Nina Carducci, photographe professionnelle à Bordeaux</title>
+	<meta name="description"
+		content="Photographe à Bordeaux, spécialisée en shooting photo, retouche pro, et albums personnalisés. Disponible à Bordeaux et en Île-de-France." />
+	<link rel="preload" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" as="style"
+		integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous"
+		onload="this.onload=null;this.rel='stylesheet'">
+	<link rel="preload" href="/assets/style.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link rel="preload"
 		href="https://fonts.googleapis.com/css2?family=Inter&family=Spectral:ital,wght@0,400;1,300;1,400;1,800&display=swap"
-		rel="stylesheet">
+		as="style" onload="this.onload=null;this.rel='stylesheet'">
 	<meta charset="UTF-8">
-	<script src="./assets/bootstrap/bootstrap.bundle.js" defer></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+		integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"
+		defer></script>
 	<script src="https://code.jquery.com/jquery-3.4.1.min.js"
-		integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous" defer></script>
-	<script src="./assets/maugallery.js" defer></script>
-	<script src="./assets/scripts.js" defer></script>
+		integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+	<script src="./assets/maugallery.min.js" defer></script>
+	<script src="./assets/scripts.min.js" defer></script>
 </head>
 
 <body>
 	<header>
 		<div class="top-header">
-			<h1 class="name">Nina Carducci</h1>
+				<h1 class="name">Nina Carducci</h1>
 			<nav>
 				<ul>
 					<li><a href="#about">À propos</a></li>
@@ -49,7 +54,7 @@
 				<div class="carousel-inner">
 					<div class="carousel-item active">
 						<img src="./assets/images/slider/photo_carousel_ryoji_iwata/photo_carrousel_ryoji_iwata_2048.webp"
-							srcset="./assets/images/slider/photo_carousel_ryoji_iwata/photo_carrousel_ryoji_iwata_298.webp 298w, ./assets/images/slider/photo_carousel_ryoji_iwata/photo_carrousel_ryoji_iwata_1140.webp 1140w, ./assets/images/slider/photo_carousel_ryoji_iwata/photo_carrousel_ryoji_iwata_1580.webp 1580w, ./assets/images/slider/photo_carousel_ryoji_iwata/photo_carrousel_ryoji_iwata_1920.webp 1920w, ./assets/images/slider/photo_carousel_ryoji_iwata/photo_carrousel_ryoji_iwata_2048.webp 2048w"
+							srcset="./assets/images/slider/photo_carousel_ryoji_iwata/photo_carrousel_ryoji_iwata_300.webp 300w, ./assets/images/slider/photo_carousel_ryoji_iwata/photo_carrousel_ryoji_iwata_608.webp 608w, ./assets/images/slider/photo_carousel_ryoji_iwata/photo_carrousel_ryoji_iwata_1140.webp 1140w, ./assets/images/slider/photo_carousel_ryoji_iwata/photo_carrousel_ryoji_iwata_1580.webp 1580w, ./assets/images/slider/photo_carousel_ryoji_iwata/photo_carrousel_ryoji_iwata_1920.webp 1920w, ./assets/images/slider/photo_carousel_ryoji_iwata/photo_carrousel_ryoji_iwata_2048.webp 2048w"
 							sizes="(min-width: 2040px) 1920px, calc(94.19vw + 17px)" class="d-block w-100"
 							alt="photo d'un homme d'affaire sur un passage piéton" />
 					</div>
@@ -57,13 +62,13 @@
 						<img src="./assets/images/slider/photo_concert_by_nicholas_green/photo_concer_nicholas_green_2048.webp"
 							srcset="./assets/images/slider/photo_concert_by_nicholas_green/photo_concer_nicholas_green_300.webp 300w, ./assets/images/slider/photo_concert_by_nicholas_green/photo_concer_nicholas_green_1140.webp 1140w, ./assets/images/slider/photo_concert_by_nicholas_green/photo_concer_nicholas_green_1580.webp 1580w, ./assets/images/slider/photo_concert_by_nicholas_green/photo_concer_nicholas_green_1920.webp 1920w, ./assets/images/slider/photo_concert_by_nicholas_green/photo_concer_nicholas_green_2048.webp 2048w"
 							sizes="(min-width: 2040px) 1920px, calc(94.19vw + 17px)" class="d-block w-100"
-							alt="Photo du public lors d'un concert" />
+							alt="Photo du public lors d'un concert" loading="lazy" />
 					</div>
 					<div class="carousel-item">
 						<img src="./assets/images/slider/photo_mariage_edward_cisneros/photo_mariage_edward_cisneros_2048.webp"
 							srcset="./assets/images/slider/photo_mariage_edward_cisneros/photo_mariage_edward_cisneros_300.webp 300w, ./assets/images/slider/photo_mariage_edward_cisneros/photo_mariage_edward_cisneros_1140.webp 1140w, ./assets/images/slider/photo_mariage_edward_cisneros/photo_mariage_edward_cisneros_1580.webp 1580w, ./assets/images/slider/photo_mariage_edward_cisneros/photo_mariage_edward_cisneros_1920.webp 1920w, ./assets/images/slider/photo_mariage_edward_cisneros/photo_mariage_edward_cisneros_2048.webp 2048w"
 							sizes="(min-width: 2040px) 1920px, calc(94.19vw + 17px)" class="d-block w-100"
-							alt="Photo des mariés s'embrassant lors de la cérémonie de leur mariage." />
+							alt="Photo des mariés s'embrassant lors de la cérémonie de leur mariage." loading="lazy" />
 					</div>
 				</div>
 				<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
@@ -85,23 +90,44 @@
 				<img src="./assets/images/nina_id/photo_id_nina_1120.webp"
 					srcset="./assets/images/nina_id/photo_id_nina_256.webp 256w, ./assets/images/nina_id/photo_id_nina_560.webp 560w, ./assets/images/nina_id/photo_id_nina_890.webp 890w, ./assets/images/nina_id/photo_id_nina_1120.webp 1120w"
 					sizes="(min-width: 2020px) 560px, (min-width: 1200px) calc(30vw - 40px), (min-width: 660px) calc(46.15vw - 75px), calc(80vw - 51px)"
-					alt="Portrait de nina" />
+					alt="Portrait de nina" loading="lazy" />
 			</div>
 			<div id="about-me">
 				<h2 class="about-me__title">A propos de moi</h2>
-				<p class="about-me__introduction">Devenir photographe était pour moi une évidence. Comme si j’y étais
-					prédestiné. Saisir un moment, une émotion, une situation, un endroit, une lumière et les rendre
-					immortels, voilà ce qui me fait vibrer.</p>
-				<p>Nous passons notre vie à chercher le bonheur, et lorsque nous y touchons, nous n’avons qu’une envie :
-					le
-					figer au travers de photographies pour le savourer avec les personnes qui sont importantes à nos
-					yeux,
-					ou le partager au plus grand nombre.
-					C’est ce que je vous propose : saisir ces merveilleux moments au travers de mon regard, mon
-					approche, ma
-					technique. Rendre ces moments immortels, afin que vous puissiez y puiser de l’amour, du bonheur, de
-					la
-					tendresse et de lumière à chaque fois que vous poserez les yeux sur vos photos.</p>
+				<p class="about-me__introduction">
+					Devenir photographe était une évidence, comme si j'étais prédestiné à capturer la quintessence des
+					instants.
+					Chaque moment, émotion, situation, lieu, ou lumière devient l'essence de mon art, immortalisé pour
+					l'éternité.
+					Chaque cliché est une histoire racontée en lumière et en ombre, un mélange de technique et
+					d'émotion.
+					Mon objectif est de capturer ces moments fugaces et d'en faire des témoignages inoubliables, des
+					souvenirs cristallisés dans la pellicule,
+					pour que vous puissiez les chérir et les partager avec ceux qui vous sont chers, aujourd'hui et pour
+					les générations à venir.</p>
+				<p>Chercher le bonheur est une quête profonde qui marque le fil de nos vies.
+					Lorsque nous le trouvons enfin, notre désir le plus ardent est de l'immortaliser à travers l'art de
+					la photographie.
+					Mon approche artistique consiste à capturer ces précieux moments en utilisant la magie de la
+					lumière,
+					l'émotion dans le cadre, et la technique de l'appareil photo.
+					Mon objectif essentiel est de transformer ces instants fugaces en souvenirs éternels, où l'amour, la
+					joie,
+					la tendresse, et la lumière rayonnent à chaque regard posé sur vos photographies.
+					<br>En tant que photographe, mon métier va bien au-delà de l'appareil photo.
+					C'est une passion qui réside dans la capture de l'essence même de la vie.
+					Chaque cliché est une histoire racontée avec sensibilité et précision, où la composition,
+					la couleur et la narration visuelle jouent un rôle clé.
+					Mon travail me permet de saisir l'émotion et la beauté cachée dans chaque instant, tout en créant
+					des images qui résistent au passage du temps.
+					<br>Que ce soit lors de séances de portrait, de couvertures de concerts, de photographies de
+					mariage,
+					ou d'images d'entreprise, chaque projet est une opportunité unique de créer de l'art visuel.
+					Mon engagement est de vous offrir des photographies qui transcendent le temps et racontent votre
+					histoire avec authenticité et passion.
+					Chaque image est une fenêtre ouverte sur un monde de souvenirs et d'émotions à revivre encore et
+					encore.
+				</p>
 			</div>
 		</div>
 		<div id="gallery">
@@ -110,62 +136,78 @@
 				<div class="gallery" style="display: none">
 					<img data-gallery-tag="Concert" class="gallery-item"
 						src="./assets/images/gallery/concerts/photo_concert_aaron_paul/photo_concert_aaron_paul_1090.webp"
-						srcset="./assets/images/gallery/concerts/photo_concert_aaron_paul/photo_concert_aaron_paul_224.webp 224w, ./assets/images/gallery/concerts/photo_concert_aaron_paul/photo_concert_aaron_paul_448.webp 448w, ./assets/images/gallery/concerts/photo_concert_aaron_paul/photo_concert_aaron_paul_608.webp 608w, ./assets/images/gallery/concerts/photo_concert_aaron_paul/photo_concert_aaron_paul_728.webp 728w, ./assets/images/gallery/concerts/photo_concert_aaron_paul/photo_concert_aaron_paul_848.webp 848w, ./assets/images/gallery/concerts/photo_concert_aaron_paul/photo_concert_aaron_paul_1090.webp 1090w"
+						srcset="./assets/images/gallery/concerts/photo_concert_aaron_paul/photo_concert_aaron_paul_254.webp 254w, ./assets/images/gallery/concerts/photo_concert_aaron_paul/photo_concert_aaron_paul_448.webp 448w, ./assets/images/gallery/concerts/photo_concert_aaron_paul/photo_concert_aaron_paul_608.webp 608w, ./assets/images/gallery/concerts/photo_concert_aaron_paul/photo_concert_aaron_paul_728.webp 728w, ./assets/images/gallery/concerts/photo_concert_aaron_paul/photo_concert_aaron_paul_848.webp 848w, ./assets/images/gallery/concerts/photo_concert_aaron_paul/photo_concert_aaron_paul_1090.webp 1090w"
 						sizes="(min-width: 1400px) 424px, (min-width: 1200px) 364px, (min-width: 1000px) 304px, (min-width: 780px) 224px, (min-width: 580px) 254px, calc(100vw - 16px)"
-						alt="Photo lors d'un concert d'Aaron Paul" />
+						alt="Photo lors d'un concert d'Aaron Paul" loading="lazy" />
 					<img data-gallery-tag="Entreprises" class="gallery-item"
 						src="./assets/images/gallery/entreprise/photo_entreprise_ali_morshedlou/photo_entreprise_ali_morshedlou_1090.webp"
 						srcset="./assets/images/gallery/entreprise/photo_entreprise_ali_morshedlou/photo_entreprise_ali_morshedlou_254.webp 254w, ./assets/images/gallery/entreprise/photo_entreprise_ali_morshedlou/photo_entreprise_ali_morshedlou_448.webp 448w, ./assets/images/gallery/entreprise/photo_entreprise_ali_morshedlou/photo_entreprise_ali_morshedlou_608.webp 608w, ./assets/images/gallery/entreprise/photo_entreprise_ali_morshedlou/photo_entreprise_ali_morshedlou_728.webp 728w, ./assets/images/gallery/entreprise/photo_entreprise_ali_morshedlou/photo_entreprise_ali_morshedlou_848.webp 848w, ./assets/images/gallery/entreprise/photo_entreprise_ali_morshedlou/photo_entreprise_ali_morshedlou_1090.webp 1090w"
 						sizes="(min-width: 1400px) 424px, (min-width: 1200px) 364px, (min-width: 1000px) 304px, (min-width: 780px) 224px, (min-width: 580px) 254px, calc(100vw - 16px)"
-						alt="Photo de portrait d'entreprise de Ali Morshedlou" />
+						alt="Photo de portrait d'entreprise de Ali Morshedlou" loading="lazy" />
 					<img data-gallery-tag="Entreprises" class="gallery-item"
 						src="./assets/images/gallery/entreprise/photo_entreprise_jason_goodman/photo_entreprise_jason_goodman_1090.webp"
 						srcset="./assets/images/gallery/entreprise/photo_entreprise_jason_goodman/photo_entreprise_jason_goodman_254.webp 254w, ./assets/images/gallery/entreprise/photo_entreprise_jason_goodman/photo_entreprise_jason_goodman_608.webp 608w, ./assets/images/gallery/entreprise/photo_entreprise_jason_goodman/photo_entreprise_jason_goodman_848.webp 848w, ./assets/images/gallery/entreprise/photo_entreprise_jason_goodman/photo_entreprise_jason_goodman_1090.webp 1090w"
 						sizes="(min-width: 1400px) 424px, (min-width: 1200px) 364px, (min-width: 1000px) 304px, (min-width: 780px) 224px, (min-width: 580px) 254px, calc(100vw - 16px)"
-						alt="Photo d'entreprise de jason goodman" />
+						alt="Photo d'entreprise de jason goodman" loading="lazy" />
 					<img data-gallery-tag="Mariages" class="gallery-item"
 						src="./assets/images/gallery/mariage/photo_mariage_hannah_busing/photo_mariage_hannah_busing_1090.webp"
 						srcset="./assets/images/gallery/mariage/photo_mariage_hannah_busing/photo_mariage_hannah_busing_304.webp 304w, ./assets/images/gallery/mariage/photo_mariage_hannah_busing/photo_mariage_hannah_busing_608.webp 608w, ./assets/images/gallery/mariage/photo_mariage_hannah_busing/photo_mariage_hannah_busing_848.webp 848w, ./assets/images/gallery/mariage/photo_mariage_hannah_busing/photo_mariage_hannah_busing_1090.webp 1090w"
 						sizes="(min-width: 1400px) 424px, (min-width: 1200px) 364px, (min-width: 1000px) 304px, (min-width: 780px) 224px, (min-width: 580px) 254px, calc(100vw - 16px)"
-						alt="Photo des mains des deux mariés" />
+						alt="Photo des mains des deux mariés" loading="lazy" />
 					<img data-gallery-tag="Portrait" class="gallery-item"
 						src="./assets/images/gallery/portraits/photo_portrait_ade_tunji/photo_portrait_ade_tunji_1090.webp"
 						srcset="./assets/images/gallery/portraits/photo_portrait_ade_tunji/photo_portrait_ade_tunji_254.webp 254w, ./assets/images/gallery/portraits/photo_portrait_ade_tunji/photo_portrait_ade_tunji_448.webp 448w, ./assets/images/gallery/portraits/photo_portrait_ade_tunji/photo_portrait_ade_tunji_608.webp 608w, ./assets/images/gallery/portraits/photo_portrait_ade_tunji/photo_portrait_ade_tunji_728.webp 728w, ./assets/images/gallery/portraits/photo_portrait_ade_tunji/photo_portrait_ade_tunji_848.webp 848w, ./assets/images/gallery/portraits/photo_portrait_ade_tunji/photo_portrait_ade_tunji_1090.webp 1090w"
 						sizes="(min-width: 1400px) 424px, (min-width: 1200px) 364px, (min-width: 1000px) 304px, (min-width: 780px) 224px, (min-width: 580px) 254px, 99.62vw"
-						alt="Photo du portrait de Ade Tunji" />
+						alt="Photo du portrait de Ade Tunji" loading="lazy" />
 					<img data-gallery-tag="Mariages" class="gallery-item"
 						src="./assets/images/gallery/mariage/photo_mariage_jakob_owens/photo_mariage_jakob_owens_1090.webp"
 						srcset="./assets/images/gallery/mariage/photo_mariage_jakob_owens/photo_mariage_jakob_owens_254.webp 254w, ./assets/images/gallery/mariage/photo_mariage_jakob_owens/photo_mariage_jakob_owens_448.webp 448w, ./assets/images/gallery/mariage/photo_mariage_jakob_owens/photo_mariage_jakob_owens_608.webp 608w, ./assets/images/gallery/mariage/photo_mariage_jakob_owens/photo_mariage_jakob_owens_728.webp 728w, ./assets/images/gallery/mariage/photo_mariage_jakob_owens/photo_mariage_jakob_owens_848.webp 848w, ./assets/images/gallery/mariage/photo_mariage_jakob_owens/photo_mariage_jakob_owens_1090.webp 1090w"
 						sizes="(min-width: 1400px) 424px, (min-width: 1200px) 364px, (min-width: 1000px) 304px, (min-width: 780px) 224px, (min-width: 580px) 254px, 99.62vw"
-						alt="Photo de deux mariés lors de leur mariage" />
+						alt="Photo de deux mariés lors de leur mariage" loading="lazy" />
 					<img data-gallery-tag="Portrait" class="gallery-item"
 						src="./assets/images/gallery/portraits/photo_portrait_nino_van_prattenburg/photo_portrait_nino_van_prattenburg_1090.webp"
 						srcset="./assets/images/gallery/portraits/photo_portrait_nino_van_prattenburg/photo_portrait_nino_van_prattenburg_254.webp 254w, ./assets/images/gallery/portraits/photo_portrait_nino_van_prattenburg/photo_portrait_nino_van_prattenburg_448.webp 448w, ./assets/images/gallery/portraits/photo_portrait_nino_van_prattenburg/photo_portrait_nino_van_prattenburg_608.webp 608w, ./assets/images/gallery/portraits/photo_portrait_nino_van_prattenburg/photo_portrait_nino_van_prattenburg_728.webp 728w, ./assets/images/gallery/portraits/photo_portrait_nino_van_prattenburg/photo_portrait_nino_van_prattenburg_848.webp 848w, ./assets/images/gallery/portraits/photo_portrait_nino_van_prattenburg/photo_portrait_nino_van_prattenburg_1090.webp 1090w"
 						sizes="(min-width: 1400px) 424px, (min-width: 1200px) 364px, (min-width: 1000px) 304px, (min-width: 780px) 224px, (min-width: 580px) 254px, 99.62vw"
-						alt="Photo du portrait de Nino Van Prattenburg" />
+						alt="Photo du portrait de Nino Van Prattenburg" loading="lazy" />
 					<img data-gallery-tag="Concert" class="gallery-item"
 						src="./assets/images/gallery/concerts/photo_concert_austin_neill/photo_concert_austin_neill_1090.webp"
 						srcset="./assets/images/gallery/concerts/photo_concert_austin_neill/photo_concert_austin_neill_254.webp 254w, ./assets/images/gallery/concerts/photo_concert_austin_neill/photo_concert_austin_neill_608.webp 608w, ./assets/images/gallery/concerts/photo_concert_austin_neill/photo_concert_austin_neill_848.webp 848w, ./assets/images/gallery/concerts/photo_concert_austin_neill/photo_concert_austin_neill_1090.webp 1090w"
 						sizes="(min-width: 1400px) 424px, (min-width: 1200px) 364px, (min-width: 1000px) 304px, (min-width: 780px) 224px, (min-width: 580px) 254px, calc(100vw - 16px)"
-						alt="Photo lors d'un concert d'Autin Neill" />
+						alt="Photo lors d'un concert d'Autin Neill" loading="lazy" />
 					<img data-gallery-tag="Entreprises" class="gallery-item"
 						src="./assets/images/gallery/entreprise/photo_entreprise_mateus_campos_felipe/photo_entreprise_mateus_campos_felipe_1090.webp"
 						srcset="./assets/images/gallery/entreprise/photo_entreprise_mateus_campos_felipe/photo_entreprise_mateus_campos_felipe_608.webp 608w, ./assets/images/gallery/entreprise/photo_entreprise_mateus_campos_felipe/photo_entreprise_mateus_campos_felipe_848.webp 848w, ./assets/images/gallery/entreprise/photo_entreprise_mateus_campos_felipe/photo_entreprise_mateus_campos_felipe_1090.webp 1090w"
 						sizes="(min-width: 1400px) 424px, (min-width: 1200px) 364px, (min-width: 1000px) 304px, (min-width: 780px) 224px, (min-width: 580px) 254px, calc(100vw - 16px)"
-						alt="Photo d'entreprise de Mateus Campos Filipe" />
+						alt="Photo d'entreprise de Mateus Campos Filipe" loading="lazy" />
 				</div>
 			</div>
 			<div class="quote">
-				<figure>
-					<blockquote>
-						<p>Un portrait n’est pas une ressemblance. Dès lors qu’une émotion ou qu’un
-							fait est traduit en photo, il cesse d’être un fait pour devenir une opinion. L’inexactitude
-							n’existe pas en photographie. Toutes les photos sont exactes. Aucune d’elles n’est la
-							vérité.
-						</p>
-					</blockquote>
-					<figcaption class="quote__author">- Richard Avedon</figcaption>
-				</figure>
+				<blockquote>
+					<p>Richard Avedon, célèbre photographe, nous rappelle que la photographie transcende la simple
+						reproduction de la réalité.
+						"Un portrait n’est pas une ressemblance. Dès lors qu’une émotion ou qu’un fait est traduit en
+						photo,
+						il cesse d’être un fait pour devenir une opinion. L’inexactitude n’existe pas en photographie.
+						Toutes les photos sont exactes. Aucune d’elles n’est la vérité."
+
+						<br>Dans cet art, chaque cliché va au-delà de la ressemblance physique, révélant une vérité
+						émotionnelle.
+						Chaque image est une interprétation artistique du moment capturé, une fenêtre sur la
+						subjectivité de l'expérience humaine.
+						La photographie capture l'essence d'un instant, transformant des émotions fugaces en souvenirs
+						impérissables.
+
+						<br>Chaque photo raconte une histoire personnelle, une vérité à sa manière.
+						La lumière, la composition, et l'émotion se conjuguent pour créer une symphonie visuelle.
+						Chaque cliché est une note dans la partition de la vie, une pièce d'un puzzle visuel qui compose
+						notre histoire.
+
+						<br>La photographie est un moyen de préserver des moments intemporels,
+						de les graver dans la pellicule pour les générations futures.
+						Elle nous rappelle que la vérité est multiple, que chaque image est une réalité personnelle, une
+						vérité éternelle.
+					</p>
+				</blockquote>
 			</div>
 		</div>
 		<div id="services">
@@ -174,9 +216,9 @@
 				<div class="service">
 					<div class="service__description">
 						<h3>Shooting photo</h3>
-						<p>Pour capturer vos moments les plus précieux et garder un souvenir impérissable. Je me déplace
-							en
-							Île-de-France pour réaliser vos photos</p>
+						<p>Pour immortaliser vos moments précieux, je suis mobile à la fois en région bordelaise et en
+							Île-de-France.
+							Mon objectif : créer des souvenirs photographiques exceptionnels où que vous soyez.</p>
 					</div>
 					<div class="service__price">
 						<h4>350€/demi journée</h4>
@@ -187,8 +229,9 @@
 				<div class="service">
 					<div class="service__description">
 						<h3>Retouches</h3>
-						<p>Vous souhaitez retoucher vos photos pour un résultat professionnel ? Bénéficier d’un rendu
-							optimal pour vos publications</p>
+						<p>Vous-désirez des retouches professionnelles pour sublimer vos photos ?
+							<br>Obtenez un résultat optimal pour des publications impactantes.
+						</p>
 					</div>
 					<div class="service__price">
 						<h4>50€/photo</h4>
@@ -198,9 +241,10 @@
 				<div class="service">
 					<div class="service__description">
 						<h3>Album photos</h3>
-						<p>Partagez avec vos proches et vos clients les photos des moments partagés ensemble à travers
-							un
-							album photo personnalisé</p>
+						<p>
+							Créez des souvenirs inoubliables en partageant vos moments précieux avec vos proches et
+							clients grâce à un album photo personnalisé,
+							mélange d'expertise en photographie et créativité.</p>
 					</div>
 					<div class="service__price">
 						<h4>400€ album A4</h4>
@@ -225,11 +269,11 @@
 				<h2>Une question ? Une demande de devis ?</h2>
 				<p> N’hésitez pas à m’écrire ! Je vous répondrais en moins de 24 heures</p>
 				<form action="" method="post">
-					<label>Nom</label>
+					<label for="nom">Nom</label>
 					<input type="text" name="nom" id="nom">
-					<label>Email</label>
+					<label for="email">Email</label>
 					<input type="email" name="email" id="email">
-					<label>Message</label>
+					<label for="message">Message</label>
 					<textarea name="message" id="message" cols="30" rows="10"></textarea>
 					<input type="submit" value="Envoyer" />
 				</form>
@@ -238,8 +282,19 @@
 				<img src="./assets/images/image_appareil_photo/image_appareil_photo_838.webp"
 					srcset="./assets/images/image_appareil_photo/image_appareil_photo_419.webp 419w, ./assets/images/image_appareil_photo/image_appareil_photo_838.webp 838w"
 					sizes="(min-width: 1600px) 419px, (min-width: 1200px) calc(28.16vw - 26px), (min-width: 980px) calc(50vw - 142px), (min-width: 680px) calc(42.86vw - 63px), (min-width: 640px) calc(-975vw + 6653px), calc(76.25vw - 60px)"
-					alt="Photo d'un appareil photo" />
+					alt="Photo d'un appareil photo" loading="lazy" />
 			</div>
+		</div>
+		<div id="contact" itemscope itemtype="https://schema.org/LocalBusiness">
+			<h2 itemprop="name">Nina Carducci contact:</h2>
+			<ul>
+				<li itemprop="telephone">Téléphone: 05 56 67 78 89</li>
+				<li itemprop="openingHours" datetime="Mo-Fr 10:00-19:00">Horaires: Lundi au vendredi de 10h à 19h</li>
+				<div itemprop="address" itemscope itemtype="https://schema.org/PostalAddress">
+					<li>Adresse: <span itemprop="streetAddress">68 avenue Alsace-Lorraine</span>, <span
+							itemprop="postalCode">33200</span> <span itemprop="addressLocality">Bordeaux</span></li>
+				</div>
+			</ul>
 		</div>
 	</footer>
 </body>
