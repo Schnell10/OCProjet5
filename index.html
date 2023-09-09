@@ -6,6 +6,22 @@
 	<title>Nina Carducci, photographe professionnelle à Bordeaux</title>
 	<meta name="description"
 		content="Photographe à Bordeaux, spécialisée en shooting photo, retouche pro, et albums personnalisés. Disponible à Bordeaux et en Île-de-France." />
+	<!-- Balises Open Graph -->
+	<meta property="og:title" content="Nina Carducci, photographe professionnelle à Bordeaux" />
+	<meta property="og:type" content="website" />
+	<meta property="og:url" content="http://127.0.0.1:5500/index.html" />
+	<meta property="og:image"
+		content="https://raw.githubusercontent.com/Schnell10/OCProjet5/main/assets/images/image_appareil_photo/image_appareil_photo_838.webp" />
+	<meta property="og:description"
+		content="Photographe à Bordeaux, spécialisée en shooting photo, retouche pro, et albums personnalisés. Disponible à Bordeaux et en Île-de-France." />
+	<!-- Twitter summary card with large image must be at least 280x150px -->
+	<meta name="twitter:card" content="summary_large_image" />
+	<meta name="twitter:title" content="Nina Carducci, photographe professionnelle à Bordeaux" />
+	<meta name="twitter:description"
+		content="Photographe à Bordeaux, spécialisée en shooting photo, retouche pro, et albums personnalisés. Disponible à Bordeaux et en Île-de-France." />
+	<meta name="twitter:image"
+		content="https://raw.githubusercontent.com/Schnell10/OCProjet5/main/assets/images/nina_id/photo_id_nina_560.webp" />
+
 	<link rel="preload" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" as="style"
 		integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous"
 		onload="this.onload=null;this.rel='stylesheet'">
@@ -28,7 +44,7 @@
 <body>
 	<header>
 		<div class="top-header">
-				<h1 class="name">Nina Carducci</h1>
+			<h1 class="name">Nina Carducci</h1>
 			<nav>
 				<ul>
 					<li><a href="#about">À propos</a></li>
@@ -255,9 +271,8 @@
 		</div>
 		<div class="quote">
 			<figure>
-				<blockquote>
-					<h1 class="quote__text">De manière inconsciente, je crois, je guette un regard, une expression, des
-						traits ou une nostalgie capable de résumer ou plus exactement de révéler une vie</h1>
+				<blockquote class="quote__text"><p>De manière inconsciente, je crois, je guette un regard, une expression, des
+						traits ou une nostalgie capable de résumer ou plus exactement de révéler une vie</p>
 				</blockquote>
 				<figcaption class="quote__author">- Richard Avedon</figcaption>
 			</figure>
@@ -286,14 +301,14 @@
 			</div>
 		</div>
 		<div id="contact" itemscope itemtype="https://schema.org/LocalBusiness">
-			<h2 itemprop="name">Nina Carducci contact:</h2>
+			<h3><span itemprop="name">Nina Carducci</span> contact:</h3>
 			<ul>
 				<li itemprop="telephone">Téléphone: 05 56 67 78 89</li>
 				<li itemprop="openingHours" datetime="Mo-Fr 10:00-19:00">Horaires: Lundi au vendredi de 10h à 19h</li>
-				<div itemprop="address" itemscope itemtype="https://schema.org/PostalAddress">
-					<li>Adresse: <span itemprop="streetAddress">68 avenue Alsace-Lorraine</span>, <span
-							itemprop="postalCode">33200</span> <span itemprop="addressLocality">Bordeaux</span></li>
-				</div>
+				<li><span itemprop="address" itemscope itemtype="https://schema.org/PostalAddress">Adresse:
+						<span itemprop="streetAddress">68 avenue Alsace-Lorraine</span>, <span
+							itemprop="postalCode">33200</span> <span itemprop="addressLocality">Bordeaux</span></span>
+				</li>
 			</ul>
 		</div>
 	</footer>

@@ -111,7 +111,7 @@ ul img {
 	justify-content: center;
 }
 .nav-pills .nav-link.active, .nav-pills .nav-link.active-tag {  /*Changement de selecteur */
-	color: #fff;
+	color: #000;
 	background-color: #BEB45A;
 	border-radius:0 ;
 }
@@ -162,7 +162,9 @@ blockquote p {
 	font-family: Spectral;
 	font-style: italic;
 	font-weight: 300;
-
+}
+.quote__text p {
+	font-size: calc(1rem + .45vw)
 }
 
 #services {
@@ -257,7 +259,7 @@ input[type="submit"] {
 	padding: .5em 1em
 }
 /*Ajout de code pour la partie contact*/
-#contact h2, #contact li {
+#contact h3, #contact li {
 	font-size: calc(0.5rem + 0.65vw);
 	margin-bottom: 0;
 	font-style: italic;
