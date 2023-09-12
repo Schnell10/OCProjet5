@@ -110,13 +110,13 @@ ul img {
 .gallery .nav {
 	justify-content: center;
 }
-.nav-pills .nav-link.active, .nav-pills .nav-link.active-tag {  /*Changement de selecteur */
+.nav-pills .nav-link.active-tag {  /*Changement de selecteur */
 	color: #000;
 	background-color: #BEB45A;
 	border-radius:0 ;
 }
 
-.nav-pills .nav-link:hover {    /*Ajout de code*/
+.nav-pills .nav-link:hover, .item-column:hover {    /*Ajout de code*/
 	cursor: pointer;
 }
 
@@ -128,6 +128,8 @@ ul img {
 	margin-bottom: 0 !important;
 	padding: 0;
 }
+
+
 .item-column::after{
 	content: "";
 	display: block;
